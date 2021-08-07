@@ -6,7 +6,7 @@ print("Welcome to the Band Name Generator.")
 city = ""
 pet_name = ""
 
-# check user has entered something
+# Get User input
 while True:
     print("What's the name of the city you grew up in?")
     city = input("> ")
@@ -24,5 +24,5 @@ while True:
     else:
         break
 
-# output using f-strings
+# output
 print(f"Your band name : {city} {pet_name}.")
